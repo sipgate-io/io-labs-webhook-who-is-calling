@@ -1,0 +1,22 @@
+{
+  "name": "io-labs-who-is-calling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "init_db": "node init_db.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sipgateio": "^1.9.1",
+    "socket.io": "^2.3.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
