@@ -13,9 +13,7 @@ For further information regarding the push functionalities of sipgate.io please 
 - [Making your computer accessible from the internet](#Making-your-computer-accessible-from-the-internet)
 - [Install dependencies:](#Install-dependencies)
 - [Execution](#Execution)
-- [How It Works](#How-It-Works)
 - [Common Issues](#Common-Issues)
-- [Related](#Related)
 - [Contact Us](#Contact-Us)
 - [License](#License)
 
