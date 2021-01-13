@@ -12,7 +12,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "express": "^4.17.1",
-    "sipgateio": "^1.9.1",
+    "sipgateio": "^2.1.4",
     "socket.io": "^2.3.0",
     "sqlite3": "^5.0.0"
   },

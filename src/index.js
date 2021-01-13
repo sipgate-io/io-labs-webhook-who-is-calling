@@ -15,7 +15,7 @@ webhookModule
     console.log(`Webhook server running\n` + "Ready for calls 📞");
 
     webhookServer.onNewCall((newCallEvent) => {
-      if (newCallEvent.user.includes("voicemail")) {
+      if (newCallEvent.users.includes("voicemail")) {
         return;
       }
 
