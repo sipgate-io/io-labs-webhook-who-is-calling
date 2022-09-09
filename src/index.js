@@ -2,14 +2,17 @@
 
 const { createWebhookModule } = require("sipgateio");
 
-const webhookServerPort = process.env.SIPGATE_WEBHOOK_SERVER_PORT || 8080;
+require("dotenv").config();
+
+const webhookServerPort = process.env.WEBHOOK_SERVER_PORT || 8080;
+const webhookServerAddress = process.env.WEBHOOK_SERVER_ADDRESS;
 
 const webhookModule = createWebhookModule();
 
 webhookModule
   .createServer({
     port: webhookServerPort,
-    serverAddress: undefined,
+    serverAddress: webhookServerAddress,
   })
   .then((webhookServer) => {
     console.log(`Webhook server running\n` + "Ready for calls 📞");
